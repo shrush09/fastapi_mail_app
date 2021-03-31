@@ -13,7 +13,7 @@ from starlette.requests import Request
 from pydantic import BaseModel, EmailStr
 from typing import List
 import uvicorn
-
+#initialise
 app = FastAPI()
 
 class EmailSchema(BaseModel):
